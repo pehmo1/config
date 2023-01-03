@@ -1,0 +1,53 @@
+super + Return
+	kitty
+super + n
+	simplenote
+super + c
+	pamixer -d 2 ; \
+	~/.config/scripts/sbu.sh
+super + v
+	pamixer -i 2 ; \
+	~/.config/scripts/sbu.sh
+super + r
+	kitty -e ranger
+super + s
+	steam -console
+super + w
+	firefox-developer-edition
+
+super + shift + a
+	/home/siim/Downloads/Artix.AppImage
+super + shift + b
+	blender
+super + shift + g
+	gimp
+super + shift + h
+	kitty -e htop
+super + shift + d
+	discord
+super + shift + m
+	kitty -e qalc
+super + shift + f
+	freecad
+super + shift + i
+	firefox-developer-edition --private-window
+super + shift + l
+	slock
+super + shift + o
+	libreoffice
+super + shift + r
+	killall sxhkd & ; \
+	sxhkd </dev/null &>/dev/null &
+super + shift + s
+	scrot
+super + shift + u
+	unityhub
+super + shift + y
+	freetube
+
+super + alt + c
+	code
+
+super + shift + control + alt + p
+	slock & ; \
+	systemctl suspend

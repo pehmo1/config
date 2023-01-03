@@ -1,0 +1,71 @@
+super + Return
+	kitty
+super + n
+	simplenote
+super + c
+	/usr/bin/pulseaudio-ctl down 2 ; \
+	~/.config/scripts/sbu.sh
+super + g
+	kitty -e ddgr
+super + v
+	/usr/bin/pulseaudio-ctl up 2 ; \
+	~/.config/scripts/sbu.sh
+super + r
+	kitty -e ranger
+super + s
+	steam -console
+super + w
+	brave
+
+super + shift + b
+	blender
+super + shift + d
+	discord
+super + shift + m
+	kitty -e qalc
+super + shift + u
+	~/.config/scripts/rpb.sh
+super + shift + f
+	freecad
+super + shift + g
+	glava --force-mod=radial
+super + shift + i
+	brave --incognito
+super + shift + n
+	kitty -e ncmpcpp
+super + shift + h
+	kitty -e bashtop
+super + shift + l
+	slock
+super + shift + o
+	libreoffice
+super + shift + r
+	killall sxhkd & ; \
+	sxhkd </dev/null &>/dev/null &
+super + shift + s
+	scrot
+super + shift + t
+	feh ~/Documents/akool/ntp.png
+super + shift + e
+	unityhub
+super + shift + y
+	/opt/FreeTube/freetube
+
+super + alt + c
+	code
+
+super + shift + control + alt + p
+	slock & ; \
+	systemctl suspend
+
+# mpc
+super + shift + p
+	mpc toggle
+super + shift + j
+	mpc prev
+super + shift + k
+	mpc next
+super + shift + c
+	mpc volume -5
+super + shift + v
+	mpc volume +5
