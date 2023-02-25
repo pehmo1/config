@@ -1,3 +1,6 @@
+" for new install: https://github.com/junegunn/vim-plug#neovim
+" :PlugInstall
+
 " Setting files
 source ~/.config/nvim/plugins.vim
 source ~/.config/nvim/nerdtree.vim
