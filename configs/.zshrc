@@ -13,7 +13,7 @@ export ZSH_THEME="powerlevel10k/powerlevel10k"
 export COMPLETION_WAITING_DOTS="true"
 export HIST_STAMPS="dd.mm.yyyy"
 export ISABLE_AUTO_UPDATE=true
-export plugins=(zsh-autosuggestions aws)
+export plugins=(aws sudo you-should-use zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 # defaults
@@ -67,8 +67,8 @@ alias cdpac="cd ~/Downloads/packages"
 alias cds="cd ~/.ssh"
 alias cdkp="cd /mnt/hdd/SteamLibrary/steamapps/common/FPSAimTrainer/FPSAimTrainer/Saved/SaveGames/Playlists"
 
-alias ewc="nvim ~/Downloads/packages/dwm/config.h"
-alias ewm="nvim ~/Downloads/packages/dwm/dwm.c"
+alias ewc="nvim ~/.config/bspwm/bspwmrc"
+alias ebc="nvim ~/.config/polybar/config.ini"
 alias ehk="nvim ~/.config/sxhkd/sxhkdrc"
 alias ekc="nvim ~/.config/kitty/kitty.conf"
 alias emp="nvim ~/.config/mpv/input.conf"

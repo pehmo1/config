@@ -29,5 +29,8 @@ easyeffects &
 #google-chrome-stable &
 
 # Window manager
-~/.config/scripts/sb.sh </dev/null &>/dev/null &
-dwm
+polybar &
+bspwm
+
+#~/.config/scripts/sb.sh </dev/null &>/dev/null &
+#dwm
