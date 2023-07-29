@@ -61,6 +61,10 @@ super + {j,k}
 # close node
 super + q
   bspc node -c
+  
+# fullscreen
+super + m
+	bspc node -t \~fullscreen
 
 # focus or send to desktop
 super + {_,shift + }{1-9,0}
