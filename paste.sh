@@ -10,7 +10,9 @@ cp $CONFIGS_DIR/.xinitrc ~
 # To config
 cp -r $CONFIGS_DIR/mpv ~/.config/
 cp -r $CONFIGS_DIR/nvim ~/.config/
+cp -r $CONFIGS_DIR/bspwm ~/.config/
 cp -r $CONFIGS_DIR/kitty ~/.config/
 cp -r $CONFIGS_DIR/sxhkd ~/.config/
 cp -r $CONFIGS_DIR/ranger ~/.config/
+cp -r $CONFIGS_DIR/polybar ~/.config/
 cp -r $CONFIGS_DIR/scripts ~/.config/
