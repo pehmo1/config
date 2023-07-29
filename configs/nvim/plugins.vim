@@ -6,9 +6,9 @@ Plug 'joshdick/onedark.vim'
 Plug 'arcticicestudio/nord-vim'
 
 " Misc
-Plug 'neoclide/coc.nvim', { 'branch': 'release' }
+"Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 Plug 'scrooloose/nerdtree'
-"Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-fugitive'
 Plug 'jiangmiao/auto-pairs'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'tpope/vim-surround'

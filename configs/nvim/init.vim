@@ -4,7 +4,7 @@
 " Setting files
 source ~/.config/nvim/plugins.vim
 source ~/.config/nvim/nerdtree.vim
-source ~/.config/nvim/coc.vim
+"source ~/.config/nvim/coc.vim
 
 " General
 colo gruvbox
