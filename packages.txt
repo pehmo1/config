@@ -9,7 +9,6 @@ bison
 blender
 ccid
 chrome-token-signing
-discord
 docker
 dotnet-runtime
 dotnet-sdk
@@ -55,6 +54,7 @@ ntfs-3g
 nvidia
 nvidia-settings
 obs-studio
+obsidian
 oh-my-zsh-git
 onlyoffice-bin
 openssh
@@ -80,7 +80,6 @@ sed
 shotcut
 simplenote-electron-bin
 slock
-spotify
 steam
 steamcmd
 sudo

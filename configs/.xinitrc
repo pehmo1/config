@@ -23,13 +23,10 @@ pcloud &
 
 # Programs
 sxhkd &
+obsidian &
 setxkbmap ee &
 feh --bg-scale ~/Pictures/wallpapers/wp.jpg &
 easyeffects &
-
-#discord &
-#spotify &
-#google-chrome-stable &
 
 # Window manager
 polybar &
