@@ -31,6 +31,3 @@ easyeffects &
 # Window manager
 polybar &
 bspwm
-
-#~/.config/scripts/sb.sh </dev/null &>/dev/null &
-#dwm
