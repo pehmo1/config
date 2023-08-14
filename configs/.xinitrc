@@ -15,6 +15,9 @@ export SSH_AUTH_SOCK
 # set refresh rate
 xrandr --output HDMI-0 --mode 1920x1080 --rate 239.76
 
+# reverse touchpad scroll
+xinput set-button-map 10 1 2 3 5 4 6 7
+
 # pcloud file sync
 pcloud &
 
