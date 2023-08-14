@@ -21,13 +21,15 @@ xinput set-button-map 10 1 2 3 5 4 6 7
 # pcloud file sync
 pcloud &
 
-# Programs
+# applications
+( sleep 1 ; obsidian ) &
+( sleep 1 ; easyeffects ) &
+( sleep 1 ; firefox-developer-edition ) &
+
 sxhkd &
-obsidian &
 setxkbmap ee &
 feh --bg-scale ~/Pictures/wallpapers/wp.jpg &
-easyeffects &
 
-# Window manager
+# window manager
 polybar &
 bspwm
