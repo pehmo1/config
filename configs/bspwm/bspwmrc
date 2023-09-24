@@ -16,3 +16,5 @@ bspc config focus_follows_pointer true
 bspc config ignore_ewmh_focus true
 bspc rule -a obsidian desktop=9 follow=off focus=off
 bspc rule -a easyeffects desktop=0 follow=off focus=off
+bspc rule -a Pavucontrol desktop=0 follow=off focus=off
+bspc rule -a Blueberry.py desktop=0 follow=off focus=off

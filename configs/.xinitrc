@@ -25,7 +25,9 @@ pcloud &
 
 # applications
 ( sleep 1 ; obsidian ) &
+( sleep 1 ; blueberry ) &
 ( sleep 1 ; easyeffects ) &
+( sleep 1 ; pavucontrol ) &
 ( sleep 1 ; firefox-developer-edition ) &
 
 sxhkd &
