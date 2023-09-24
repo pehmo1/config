@@ -34,6 +34,9 @@ sxhkd &
 setxkbmap ee &
 feh --bg-scale ~/Pictures/wallpapers/wp.jpg &
 
+# fix for godot windows being hidden
+while true; do bspc node any.hidden -g hidden=off && sleep 0.1 ; done >/dev/null 2>&1 &
+
 # window manager
 polybar &
 bspwm
