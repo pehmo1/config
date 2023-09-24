@@ -16,7 +16,9 @@ export SSH_AUTH_SOCK
 xrandr --output HDMI-0 --mode 1920x1080 --rate 239.76
 
 # reverse touchpad scroll
-xinput set-button-map 10 1 2 3 5 4 6 7
+if [ "$(hostname)" != "arch-desktop" ]; then
+	xinput set-button-map 10 1 2 3 5 4 6 7
+fi
 
 # pcloud file sync
 pcloud &
