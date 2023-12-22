@@ -6,6 +6,7 @@ cp /etc/pacman.conf $CONFIGS_DIR
 # From home
 cp ~/.xinitrc $CONFIGS_DIR
 cp ~/.zshrc $CONFIGS_DIR
+cp ~/.p10k.zsh $CONFIGS_DIR
 
 # From config
 cp -r ~/.config/bspwm ~/.config/polybar ~/.config/scripts ~/.config/kitty ~/.config/mpv ~/.config/ranger ~/.config/sxhkd $CONFIGS_DIR

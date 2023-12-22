@@ -6,6 +6,7 @@ CONFIGS_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd 
 # To home
 cp $CONFIGS_DIR/.zshrc ~
 cp $CONFIGS_DIR/.xinitrc ~
+cp $CONFIGS_DIR/.p10k.zsh ~
 
 # To config
 cp -r $CONFIGS_DIR/mpv ~/.config/
