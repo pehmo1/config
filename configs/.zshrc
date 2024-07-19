@@ -19,7 +19,7 @@ source $ZSH/oh-my-zsh.sh
 # defaults
 export EDITOR="nvim"
 export TERMINAL="kitty"
-export BROWSER="none"
+export BROWSER="firefox-developer-edition"
 export READER="zathura"
 export FILE="ranger"
 export IMAGE="feh"

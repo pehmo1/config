@@ -5,9 +5,6 @@ usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
 
-# unity
-export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1
-
 # gnome keyring start
 eval $(gnome-keyring-daemon --start)
 export SSH_AUTH_SOCK
@@ -16,7 +13,7 @@ export SSH_AUTH_SOCK
 xrandr --output HDMI-0 --mode 1920x1080 --rate 239.76
 
 # reverse touchpad scroll
-if [ "$(hostname)" != "arch-desktop" ]; then
+if [ "$(< /etc/hostname)" != "arch-desktop" ]; then
 	xinput set-button-map 10 1 2 3 5 4 6 7
 fi
 
@@ -32,10 +29,10 @@ pcloud &
 
 sxhkd &
 setxkbmap ee &
-feh --bg-scale ~/Pictures/wallpapers/wp.jpg &
+feh --bg-scale ~/Pictures/wallpapers/wp6.jpg &
 
 # fix for godot windows being hidden
-while true; do bspc node any.hidden -g hidden=off && sleep 0.1 ; done >/dev/null 2>&1 &
+#while true; do bspc node any.hidden -g hidden=off && sleep 0.1 ; done >/dev/null 2>&1 &
 
 # window manager
 polybar &
