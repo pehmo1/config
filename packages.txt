@@ -38,13 +38,13 @@ pamixer
 pavucontrol
 pcloud-drive
 pfetch
+pipewire
 pipewire-alsa
+pipewire-audio
 pipewire-pulse
 postgresql
-pulseaudio-ctl
 python-pip
 qemu-full
-qpwgraph
 ranger
 redshift
 scrot
