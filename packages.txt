@@ -21,7 +21,6 @@ libreoffice-fresh
 linux
 linux-firmware
 lsd
-maim
 mongodb-compass
 mpv
 neovim
