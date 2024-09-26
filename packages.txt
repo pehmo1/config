@@ -1,6 +1,7 @@
 base
 base-devel
 blender
+bspwm
 docker
 easyeffects
 feh
@@ -33,6 +34,7 @@ pipewire
 pipewire-alsa
 pipewire-audio
 pipewire-pulse
+polybar
 python-pip
 qemu-full
 ranger
