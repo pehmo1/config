@@ -57,8 +57,6 @@ ttf-jetbrains-mono
 ttf-ms-fonts
 unp
 virtualbox
-virtualbox-ext-oracle
-virtualbox-host-modules-arch
 visual-studio-code-bin
 wireplumber
 xdotool
