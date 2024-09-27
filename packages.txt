@@ -1,6 +1,7 @@
 base
 base-devel
 blender
+blueberry
 bspwm
 docker
 easyeffects
