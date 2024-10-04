@@ -16,7 +16,7 @@ super + r
 	kitty -e ranger
 
 super + w
-	firefox-developer-edition
+	firefox
 
 super + p
   dmenu_run
@@ -34,7 +34,7 @@ super + shift + m
 	kitty -e qalc
 
 super + shift + i
-	firefox-developer-edition --private-window
+	firefox --private-window
 
 super + shift + l
 	slock
